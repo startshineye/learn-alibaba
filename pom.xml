@@ -6,4 +6,11 @@
     <version>1.0</version>
     <name>learn-alibaba Tapestry 5 Application</name>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>nacos-discovery-provider</module>
+        <module>nacos-discovery-consumer</module>
+        <module>nacos-discovery-consumer-feign</module>
+        <module>nacos-discovery-consumer-webflux</module>
+    </modules>
 </project>

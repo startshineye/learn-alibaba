@@ -6,11 +6,17 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-discovery-consumer-fegin/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-discovery-consumer-feign/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/nacos-discovery-consumer-fegin/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

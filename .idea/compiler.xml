@@ -6,16 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-discovery-provider" />
+        <module name="nacosdiscoveryprovider" />
+        <module name="nacos-discovery-consumer-feign" />
         <module name="nacos-discovery-consumer" />
+        <module name="nacosdiscoveryconsumer" />
+        <module name="nacos-discovery-consumer-webflux" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-discovery-consumer (1)" target="1.8" />
+      <module name="nacos-discovery-consumer-fegin" target="1.8" />
+      <module name="nacos-discovery-consumer-feign (1)" target="1.8" />
+      <module name="nacos-discovery-provider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="learn-alibaba" options="" />
       <module name="nacos-discovery-consumer" options="-parameters" />
+      <module name="nacos-discovery-consumer (1)" options="-parameters" />
+      <module name="nacos-discovery-consumer-fegin" options="-parameters" />
+      <module name="nacos-discovery-consumer-feign" options="-parameters" />
+      <module name="nacos-discovery-consumer-webflux" options="-parameters" />
       <module name="nacos-discovery-provider" options="-parameters" />
+      <module name="nacosdiscoveryconsumer" options="-parameters" />
+      <module name="nacosdiscoveryprovider" options="-parameters" />
     </option>
   </component>
 </project>

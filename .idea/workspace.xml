@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="" />
+    <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-discovery-consumer-feign/src/main/java/com/yxm/alibaba/nacosdiscoveryconsumer/service/HelloFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -33,16 +45,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1Wuep9PuWeXutTlsDjbrbjd5WNZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/pigxcloud/learn-alibaba" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3475259" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\yexinming\learn-alibaba" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -61,34 +83,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosDiscoveryConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.NacosDiscoveryConsumerWebfluxApplication">
     <configuration name="NacosDiscoveryConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="nacos-discovery-consumer" />
+      <module name="nacosdiscoveryconsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryconsumer.NacosDiscoveryConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosDiscoveryConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-discovery-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryconsumer.NacosDiscoveryConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosDiscoveryConsumerWebfluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-discovery-consumer-webflux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryconsumer.NacosDiscoveryConsumerWebfluxApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="NacosDiscoveryProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="nacos-discovery-provider" />
+      <module name="nacosdiscoveryprovider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryprovider.NacosDiscoveryProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosDiscoveryProviderApplication8052" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="nacos-discovery-provider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryprovider.NacosDiscoveryProviderApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8052" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.NacosDiscoveryConsumerWebfluxApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryConsumerApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryProviderApplication" />
-      <item itemvalue="Spring Boot.NacosDiscoveryProviderApplication8052" />
+      <item itemvalue="Spring Boot.NacosDiscoveryConsumerFeignApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -99,12 +130,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@53175ad7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@233f94c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@53175ad7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@54be9443" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@233f94c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@31a73bce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@233f94c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ecfd9939" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -126,11 +162,44 @@
       <workItem from="1580037053364" duration="1898000" />
       <workItem from="1580038972892" duration="72000" />
       <workItem from="1580039108844" duration="1166000" />
-      <workItem from="1580042528250" duration="2906000" />
+      <workItem from="1580042528250" duration="4660000" />
+      <workItem from="1580051792189" duration="2119000" />
+      <workItem from="1580080580750" duration="4080000" />
+      <workItem from="1580092263704" duration="77000" />
+      <workItem from="1580092357140" duration="6868000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-discovery-consumer-feign/src/main/java/com/yxm/alibaba/nacosdiscoveryconsumer/controller/TestController.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-discovery-provider/src/main/java/com/yxm/alibaba/nacosdiscoveryprovider/controller/HelloController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
