@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-discovery-gateway-server" />
         <module name="nacos-discovery-consumer-feign" />
+        <module name="nacos-config-client" />
         <module name="nacos-discovery-consumer" />
         <module name="nacosdiscoveryprovider" />
         <module name="nacos-discovery-consumer-webflux" />
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="learn-alibaba" options="" />
+      <module name="nacos-config-client" options="-parameters" />
       <module name="nacos-discovery-consumer" options="-parameters" />
       <module name="nacos-discovery-consumer (1)" options="-parameters" />
       <module name="nacos-discovery-consumer-fegin" options="-parameters" />

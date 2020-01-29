@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nacos-config-client/src/main/java/com/yxm/alibaba/nacosconfigclient/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-webflux/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/nacos-discovery-gateway-server/src/main/java/com/yxm/alibaba" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/nacos-config-client/src/test/java/com/yxm/alibaba" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -85,7 +81,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosDiscoveryGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.NacosConfigClientApplication">
+    <configuration name="NacosConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxm.alibaba.nacosconfigclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosconfigclient.NacosConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NacosDiscoveryConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nacosdiscoveryconsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryconsumer.NacosDiscoveryConsumerApplication" />
@@ -131,7 +140,13 @@
       <item itemvalue="Spring Boot.NacosDiscoveryConsumerWebfluxApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryGatewayApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryProviderApplication" />
+      <item itemvalue="Spring Boot.NacosConfigClientApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NacosConfigClientApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -174,7 +189,7 @@
       <workItem from="1580092263704" duration="77000" />
       <workItem from="1580092357140" duration="6868000" />
       <workItem from="1580267783834" duration="236000" />
-      <workItem from="1580268198134" duration="8105000" />
+      <workItem from="1580268198134" duration="15776000" />
     </task>
     <servers />
   </component>
