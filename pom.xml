@@ -12,5 +12,6 @@
         <module>nacos-discovery-consumer</module>
         <module>nacos-discovery-consumer-feign</module>
         <module>nacos-discovery-consumer-webflux</module>
+        <module>nacos-discovery-gateway-server</module>
     </modules>
 </project>

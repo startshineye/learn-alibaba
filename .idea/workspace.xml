@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-discovery-consumer-feign/src/main/java/com/yxm/alibaba/nacosdiscoveryconsumer/service/HelloFeignService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-webflux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/nacos-discovery-gateway-server/src/main/java/com/yxm/alibaba" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -83,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosDiscoveryConsumerWebfluxApplication">
+  <component name="RunManager" selected="Spring Boot.NacosDiscoveryGatewayApplication">
     <configuration name="NacosDiscoveryConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nacosdiscoveryconsumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryconsumer.NacosDiscoveryConsumerApplication" />
@@ -107,6 +109,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosDiscoveryGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-discovery-gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoverygateway.NacosDiscoveryGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NacosDiscoveryProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nacosdiscoveryprovider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.nacosdiscoveryprovider.NacosDiscoveryProviderApplication" />
@@ -116,31 +126,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.NacosDiscoveryConsumerWebfluxApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryConsumerApplication" />
-      <item itemvalue="Spring Boot.NacosDiscoveryProviderApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryConsumerFeignApplication" />
+      <item itemvalue="Spring Boot.NacosDiscoveryConsumerWebfluxApplication" />
+      <item itemvalue="Spring Boot.NacosDiscoveryGatewayApplication" />
+      <item itemvalue="Spring Boot.NacosDiscoveryProviderApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.08643617" />
+        <option name="contentProportion" value="0.047806155" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@233f94c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1a969686" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@233f94c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@31a73bce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@233f94c6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ecfd9939" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1a969686" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e0cbaf90" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -167,6 +173,8 @@
       <workItem from="1580080580750" duration="4080000" />
       <workItem from="1580092263704" duration="77000" />
       <workItem from="1580092357140" duration="6868000" />
+      <workItem from="1580267783834" duration="236000" />
+      <workItem from="1580268198134" duration="8105000" />
     </task>
     <servers />
   </component>
