@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-config-client-load/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-config-client-load/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-feign/src/test/java/com/yxm/alibaba/nacosdiscoveryconsumer/NacosDiscoveryConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-feign/src/test/java/com/yxm/alibaba/nacosdiscoveryconsumer/NacosDiscoveryConsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/src/test/java/com/yxm/alibaba/nacosdiscoveryprovider/NacosDiscoveryProviderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/src/test/java/com/yxm/alibaba/nacosdiscoveryprovider/NacosDiscoveryProviderApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,12 +166,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3732cbce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f70a2855" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3732cbce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec1bea79" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f70a2855" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7df1529a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +200,9 @@
       <workItem from="1580092357140" duration="6868000" />
       <workItem from="1580267783834" duration="236000" />
       <workItem from="1580268198134" duration="18594000" />
-      <workItem from="1580344748797" duration="3358000" />
+      <workItem from="1580344748797" duration="7768000" />
+      <workItem from="1580376210663" duration="1190000" />
+      <workItem from="1580428793418" duration="3960000" />
     </task>
     <servers />
   </component>

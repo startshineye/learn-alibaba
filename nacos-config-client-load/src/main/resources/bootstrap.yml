@@ -7,5 +7,11 @@ spring:
         server-addr: 127.0.0.1:8848
         file-extension: yml
         namespace: 83aa3869-684c-43af-919a-74bcceea120b
+        group: alibaba
+        ext-config:
+          - data-id: common.yml
+            group: alibaba
+            refresh: true
+        shared-dataids: common.yml
 server:
   port: 8056
