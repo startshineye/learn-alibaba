@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/nacos-discovery-consumer-webflux" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-discovery-gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-discovery-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-core-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../nacos-discovery-consumer-feign" charset="UTF-8" />
   </component>
 </project>

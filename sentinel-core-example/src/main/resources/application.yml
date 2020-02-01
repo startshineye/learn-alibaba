@@ -1,0 +1,9 @@
+server:
+  port: 18080
+spring:
+  application:
+    name: sentinel-core-example
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
