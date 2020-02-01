@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-config-client-load/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-config-client-load/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-feign/src/test/java/com/yxm/alibaba/nacosdiscoveryconsumer/NacosDiscoveryConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-feign/src/test/java/com/yxm/alibaba/nacosdiscoveryconsumer/NacosDiscoveryConsumerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-provider/src/test/java/com/yxm/alibaba/nacosdiscoveryprovider/NacosDiscoveryProviderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-provider/src/test/java/com/yxm/alibaba/nacosdiscoveryprovider/NacosDiscoveryProviderApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,17 +158,7 @@
       <serviceView>
         <option name="contentProportion" value="0.07247341" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f70a2855" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f70a2855" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7df1529a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -203,6 +188,7 @@
       <workItem from="1580344748797" duration="7768000" />
       <workItem from="1580376210663" duration="1190000" />
       <workItem from="1580428793418" duration="3960000" />
+      <workItem from="1580528142783" duration="1987000" />
     </task>
     <servers />
   </component>
