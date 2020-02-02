@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/IpRequestOriginParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/ParamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/SentinelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/SentinelConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,45 +175,18 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1cde7cc4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a6a40c37" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1cde7cc4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ab9d48" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a6a40c37" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@54228f65" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
         </treeState>
       </serviceView>
     </option>
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-          <option name="viewType" value="service" />
-          <option name="roots">
-            <list>
-              <ServiceState>
-                <option name="path">
-                  <list>
-                    <option value="Run Dashboard" />
-                    <option value="SpringBootApplicationConfigurationType" />
-                    <option value="SpringBootApplicationConfigurationType/Finished" />
-                    <option value="SpringBootApplicationConfigurationType/SentinelCoreExampleApplication" />
-                  </list>
-                </option>
-                <option name="contributor" value="com.intellij.execution.dashboard.RunConfigurationsServiceViewContributor" />
-              </ServiceState>
-            </list>
-          </option>
-        </serviceView>
-      </list>
-    </option>
-    <option name="selectedView" value="0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -241,6 +213,7 @@
       <workItem from="1580376210663" duration="1190000" />
       <workItem from="1580428793418" duration="3960000" />
       <workItem from="1580528142783" duration="12058000" />
+      <workItem from="1580602405281" duration="2573000" />
     </task>
     <servers />
   </component>

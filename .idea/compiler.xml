@@ -11,10 +11,10 @@
         <module name="nacos-config-client" />
         <module name="nacos-discovery-consumer" />
         <module name="nacosdiscoveryprovider" />
-        <module name="sentinel-core-example" />
         <module name="nacos-config-client-load" />
         <module name="nacos-discovery-consumer-webflux" />
         <module name="nacosdiscoveryconsumer" />
+        <module name="sentinel-core-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
