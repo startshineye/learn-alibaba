@@ -9,7 +9,8 @@ import javax.annotation.PostConstruct;
 public class SentinelConfig {
 
     @PostConstruct
-    public void innit(){
+    public void init(){
         WebCallbackManager.setUrlBlockHandler(new DemoUrlBlockHandler());
+        WebCallbackManager.setRequestOriginParser(new IpRequestOriginParser());
     }
 }

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/DemoUrlBlockHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/ExceptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/SentinelConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/IpRequestOriginParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/SecurityController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/SentinelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/SentinelConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +59,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yxm.alibaba.sentinel.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\yexinming\learn-alibaba" />
     </key>
@@ -183,11 +181,6 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1cde7cc4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ce94d9ea" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1cde7cc4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ab9d48" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
@@ -195,6 +188,33 @@
         </treeState>
       </serviceView>
     </option>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="viewType" value="service" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="path">
+                  <list>
+                    <option value="Run Dashboard" />
+                    <option value="SpringBootApplicationConfigurationType" />
+                    <option value="SpringBootApplicationConfigurationType/Finished" />
+                    <option value="SpringBootApplicationConfigurationType/SentinelCoreExampleApplication" />
+                  </list>
+                </option>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunConfigurationsServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+      </list>
+    </option>
+    <option name="selectedView" value="0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -220,7 +240,7 @@
       <workItem from="1580344748797" duration="7768000" />
       <workItem from="1580376210663" duration="1190000" />
       <workItem from="1580428793418" duration="3960000" />
-      <workItem from="1580528142783" duration="9451000" />
+      <workItem from="1580528142783" duration="12058000" />
     </task>
     <servers />
   </component>
@@ -252,6 +272,11 @@
           <url>file://$PROJECT_DIR$/nacos-discovery-provider/src/main/java/com/yxm/alibaba/nacosdiscoveryprovider/controller/HelloController.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/config/IpRequestOriginParser.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
