@@ -20,6 +20,12 @@ public class DemoController {
         return "Hello resource";
     }
 
+    @GetMapping("/hello2")
+    @SentinelResource(value = "hello2", blockHandler = "exHandler", blockHandlerClass = {ExceptionUtil.class})
+    public String resource1() {
+        return "hello resource1";
+    }
+
     public String exHandler(BlockException blockHandler){
       return "exHandler error";
     }

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/ParamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/resources/flowrule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-feign-consumer/src/main/java/com/yxm/alibaba/sentinelfeignconsumer/feign/DemoFeginClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-feign-consumer/src/main/java/com/yxm/alibaba/sentinelfeignconsumer/feign/DemoFeignClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-feign-provider/src/main/java/com/yxm/alibaba/sentinelfeignprovider/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-core-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-core-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/java/com/yxm/alibaba/sentinel/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-core-example/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-core-example/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +59,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/sentinel-core-example/src/test/java/com/yxm/alibaba" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sentinel-feign-consumer/src/test/java/com/yxm/alibaba" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3475259" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -82,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelCoreExampleApplication">
+  <component name="RunManager" selected="Spring Boot.SentinelFeignConsumerApplication">
     <configuration name="NacosConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nacos-config-client" />
       <extension name="coverage">
@@ -151,6 +160,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelFeignConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sentinel-feign-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxm.alibaba.sentinelfeignconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.sentinelfeignconsumer.SentinelFeignConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelFeignProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-feign-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.sentinelfeignprovider.SentinelFeignProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.NacosDiscoveryConsumerApplication" />
       <item itemvalue="Spring Boot.NacosDiscoveryConsumerFeignApplication" />
@@ -159,10 +189,13 @@
       <item itemvalue="Spring Boot.NacosDiscoveryProviderApplication" />
       <item itemvalue="Spring Boot.NacosConfigClientLoadApplication" />
       <item itemvalue="Spring Boot.SentinelCoreExampleApplication" />
+      <item itemvalue="Spring Boot.SentinelFeignProviderApplication" />
       <item itemvalue="Spring Boot.NacosConfigClientApplication" />
+      <item itemvalue="Spring Boot.SentinelFeignConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelFeignConsumerApplication" />
         <item itemvalue="Spring Boot.NacosConfigClientApplication" />
       </list>
     </recent_temporary>
@@ -170,19 +203,9 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.07247341" />
+        <option name="contentProportion" value="0.32481992" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a6a40c37" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a6a40c37" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@54228f65" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -213,7 +236,9 @@
       <workItem from="1580376210663" duration="1190000" />
       <workItem from="1580428793418" duration="3960000" />
       <workItem from="1580528142783" duration="12058000" />
-      <workItem from="1580602405281" duration="2573000" />
+      <workItem from="1580602405281" duration="20022000" />
+      <workItem from="1580786452106" duration="5767000" />
+      <workItem from="1580825131050" duration="411000" />
     </task>
     <servers />
   </component>

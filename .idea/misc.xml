@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/nacos-discovery-consumer-fegin/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel-core-example/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-feign-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
