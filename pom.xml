@@ -18,5 +18,7 @@
         <module>sentinel-core-example</module>
         <module>sentinel-feign-provider</module>
         <module>sentinel-feign-consumer</module>
+        <module>sentinel-gateway</module>
+        <module>sentinel-gateway-service</module>
     </modules>
 </project>

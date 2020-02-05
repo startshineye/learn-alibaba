@@ -12,10 +12,12 @@
         <module name="sentinel-feign-consumer" />
         <module name="nacos-discovery-consumer" />
         <module name="nacosdiscoveryprovider" />
+        <module name="sentinel-gateway" />
         <module name="sentinel-core-example" />
         <module name="nacos-config-client-load" />
         <module name="sentinel-feign-provider" />
         <module name="nacos-discovery-consumer-webflux" />
+        <module name="sentinel-gateway-service" />
         <module name="nacosdiscoveryconsumer" />
       </profile>
     </annotationProcessing>
@@ -43,6 +45,8 @@
       <module name="sentinel-core-example" options="-parameters" />
       <module name="sentinel-feign-consumer" options="-parameters" />
       <module name="sentinel-feign-provider" options="-parameters" />
+      <module name="sentinel-gateway" options="-parameters" />
+      <module name="sentinel-gateway-service" options="-parameters" />
     </option>
   </component>
 </project>

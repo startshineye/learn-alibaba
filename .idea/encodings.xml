@@ -12,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/sentinel-core-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-feign-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-feign-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-gateway-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../nacos-discovery-consumer-feign" charset="UTF-8" />
   </component>
 </project>
