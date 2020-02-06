@@ -6,19 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-discovery-gateway-server" />
+        <module name="nacos-config-client-load" />
+        <module name="sentinel-core-example" />
         <module name="nacos-discovery-consumer-feign" />
+        <module name="nacosdiscoveryconsumer" />
+        <module name="seata-biz-service" />
+        <module name="seata-order-service" />
+        <module name="seata-pay-service" />
+        <module name="sentinel-feign-provider" />
+        <module name="sentinel-gateway-service" />
+        <module name="nacos-discovery-consumer" />
+        <module name="sentinel-gateway" />
         <module name="nacos-config-client" />
         <module name="sentinel-feign-consumer" />
-        <module name="nacos-discovery-consumer" />
+        <module name="nacos-discovery-gateway-server" />
         <module name="nacosdiscoveryprovider" />
-        <module name="sentinel-gateway" />
-        <module name="sentinel-core-example" />
-        <module name="nacos-config-client-load" />
-        <module name="sentinel-feign-provider" />
         <module name="nacos-discovery-consumer-webflux" />
-        <module name="sentinel-gateway-service" />
-        <module name="nacosdiscoveryconsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +29,9 @@
       <module name="nacos-discovery-consumer-fegin" target="1.8" />
       <module name="nacos-discovery-consumer-feign (1)" target="1.8" />
       <module name="nacos-discovery-provider" target="1.8" />
+      <module name="seata-biz-service (1)" target="1.8" />
+      <module name="seata-biz-service (2)" target="1.8" />
+      <module name="seata-order-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -42,6 +48,11 @@
       <module name="nacos-discovery-provider" options="-parameters" />
       <module name="nacosdiscoveryconsumer" options="-parameters" />
       <module name="nacosdiscoveryprovider" options="-parameters" />
+      <module name="seata-biz-service" options="-parameters" />
+      <module name="seata-biz-service (1)" options="-parameters" />
+      <module name="seata-biz-service (2)" options="-parameters" />
+      <module name="seata-order-service" options="-parameters" />
+      <module name="seata-pay-service" options="-parameters" />
       <module name="sentinel-core-example" options="-parameters" />
       <module name="sentinel-feign-consumer" options="-parameters" />
       <module name="sentinel-feign-provider" options="-parameters" />

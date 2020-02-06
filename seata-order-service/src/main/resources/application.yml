@@ -1,0 +1,10 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://47.104.94.106:3307/alibaba-order?useSSL=false
+    username: root
+    password: rbjf_DEV123
+    driver-class-name: com.mysql.jdbc.Driver

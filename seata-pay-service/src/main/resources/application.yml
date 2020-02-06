@@ -1,0 +1,10 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: pay-service
+  datasource:
+    url: jdbc:mysql://47.104.94.106:3307/alibaba-pay?useSSL=false
+    username: root
+    password: rbjf_DEV123
+    driver-class-name: com.mysql.jdbc.Driver

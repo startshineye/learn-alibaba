@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentinel-gateway-service/src/main/java/com/yxm/alibaba/sentinelgatewayservice/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/config/BizConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/controller/BizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/service/BizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-pay-service/src/main/java/com/yxm/alibaba/seatapayservice/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-pay-service/src/main/java/com/yxm/alibaba/seatapayservice/service/PayService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -58,18 +65,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/sentinel-feign-consumer/src/test/java/com/yxm/alibaba" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3475259" />
+    <property name="project.structure.side.proportion" value="0.29321268" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yxm.alibaba.seatabizservice.config" />
       <recent name="com.yxm.alibaba.sentinel.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\yexinming\learn-alibaba\seata-order-service\src\main\java\com\yxm\alibaba\seataorderservice" />
       <recent name="F:\yexinming\learn-alibaba" />
     </key>
   </component>
@@ -90,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.SeataBizServiceApplication">
     <configuration name="NacosConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nacos-config-client" />
       <extension name="coverage">
@@ -151,6 +160,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeataBizServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-biz-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.seatabizservice.SeataBizServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxm.alibaba.sentinelfeignconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.seataorderservice.SeataOrderServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataPayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-pay-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.seatapayservice.SeataPayServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SentinelCoreExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sentinel-core-example" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.sentinel.SentinelCoreExampleApplication" />
@@ -203,10 +241,13 @@
       <item itemvalue="Spring Boot.NacosConfigClientLoadApplication" />
       <item itemvalue="Spring Boot.SentinelCoreExampleApplication" />
       <item itemvalue="Spring Boot.SentinelFeignProviderApplication" />
-      <item itemvalue="Spring Boot.NacosConfigClientApplication" />
-      <item itemvalue="Spring Boot.SentinelFeignConsumerApplication" />
       <item itemvalue="Spring Boot.SentinelGatewayApplication" />
       <item itemvalue="Spring Boot.SentinelGatewayServiceApplication" />
+      <item itemvalue="Spring Boot.SeataBizServiceApplication" />
+      <item itemvalue="Spring Boot.SeataPayServiceApplication" />
+      <item itemvalue="Spring Boot.SeataOrderServiceApplication" />
+      <item itemvalue="Spring Boot.NacosConfigClientApplication" />
+      <item itemvalue="Spring Boot.SentinelFeignConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -218,22 +259,17 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.32481992" />
+        <option name="contentProportion" value="0.103264995" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c497f621" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1533950" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c497f621" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5cd995b4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c497f621" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b73b9d7a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1533950" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8a9725e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +306,10 @@
       <workItem from="1580786452106" duration="5767000" />
       <workItem from="1580825131050" duration="411000" />
       <workItem from="1580826871100" duration="1810000" />
-      <workItem from="1580885033786" duration="5908000" />
+      <workItem from="1580885033786" duration="7504000" />
+      <workItem from="1580894634828" duration="3101000" />
+      <workItem from="1580899081255" duration="6114000" />
+      <workItem from="1580915236036" duration="7372000" />
     </task>
     <servers />
   </component>
