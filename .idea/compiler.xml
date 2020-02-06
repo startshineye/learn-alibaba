@@ -11,10 +11,10 @@
         <module name="nacos-discovery-consumer-feign" />
         <module name="nacosdiscoveryconsumer" />
         <module name="seata-biz-service" />
-        <module name="seata-order-service" />
         <module name="seata-pay-service" />
         <module name="sentinel-feign-provider" />
         <module name="sentinel-gateway-service" />
+        <module name="seata-ord-service" />
         <module name="nacos-discovery-consumer" />
         <module name="sentinel-gateway" />
         <module name="nacos-config-client" />
@@ -51,6 +51,7 @@
       <module name="seata-biz-service" options="-parameters" />
       <module name="seata-biz-service (1)" options="-parameters" />
       <module name="seata-biz-service (2)" options="-parameters" />
+      <module name="seata-ord-service" options="-parameters" />
       <module name="seata-order-service" options="-parameters" />
       <module name="seata-pay-service" options="-parameters" />
       <module name="sentinel-core-example" options="-parameters" />

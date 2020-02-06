@@ -1,9 +1,9 @@
-package com.yxm.alibaba.seataorderservice.service;
+package com.yxm.alibaba.seataordservice.service;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 @Service
 public class OrderService {
     @Autowired
@@ -13,4 +13,8 @@ public class OrderService {
     public void save(){
         jdbcTemplate.update("INSERT INTO `order`( `username`) VALUES ('123');");
     }
+
 }
+
+
+

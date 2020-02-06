@@ -1,10 +1,10 @@
-package com.yxm.alibaba.nacosdiscoveryconsumer;
+package com.yxm.alibaba.seataordservice;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NacosDiscoveryConsumerApplicationTests {
+class SeataOrdServiceApplicationTests {
 
     @Test
     void contextLoads() {

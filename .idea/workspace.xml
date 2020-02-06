@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360ee4e4-fecc-4d31-a566-4ba5f9ea6146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/config/BizConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/controller/BizController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/service/BizService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-pay-service/src/main/java/com/yxm/alibaba/seatapayservice/controller/PayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-pay-service/src/main/java/com/yxm/alibaba/seatapayservice/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-biz-service/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-ord-service/src/main/java/com/yxm/alibaba/seataordservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-ord-service/src/main/java/com/yxm/alibaba/seataordservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-ord-service/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-ord-service/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-pay-service/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-pay-service/src/main/resources/registry.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer/src/test/java/com/yxm/alibaba/nacosdiscoveryconsumer/NacosDiscoveryConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer/src/test/java/com/yxm/alibaba/nacosdiscoveryconsumer/NacosDiscoveryConsumerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-biz-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-biz-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/SeataBizServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/SeataBizServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/service/BizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-biz-service/src/main/java/com/yxm/alibaba/seatabizservice/service/BizService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-biz-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-biz-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/SeataOrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-pay-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-pay-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-pay-service/src/main/java/com/yxm/alibaba/seatapayservice/SeataPayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-pay-service/src/main/java/com/yxm/alibaba/seatapayservice/SeataPayServiceApplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +80,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-order-service/src/main/java/com/yxm/alibaba/seataorderservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-ord-service/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29321268" />
@@ -78,8 +92,11 @@
       <recent name="com.yxm.alibaba.sentinel.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\yexinming\learn-alibaba\seata-ord-service\src\main\resources" />
+      <recent name="F:\yexinming\learn-alibaba\seata-pay-service\src\main\resources" />
+      <recent name="F:\yexinming\learn-alibaba\seata-order-service\src\main\resources" />
+      <recent name="F:\yexinming\learn-alibaba\seata-biz-service\src\main\resources" />
       <recent name="F:\yexinming\learn-alibaba\seata-order-service\src\main\java\com\yxm\alibaba\seataorderservice" />
-      <recent name="F:\yexinming\learn-alibaba" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SeataBizServiceApplication">
+  <component name="RunManager" selected="Spring Boot.SeataOrdServiceApplication">
     <configuration name="NacosConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nacos-config-client" />
       <extension name="coverage">
@@ -167,16 +184,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeataOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="seata-order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yxm.alibaba.sentinelfeignconsumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.seataorderservice.SeataOrderServiceApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="SeataOrdServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-ord-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yxm.alibaba.seataordservice.SeataOrdServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,9 +255,9 @@
       <item itemvalue="Spring Boot.SentinelGatewayServiceApplication" />
       <item itemvalue="Spring Boot.SeataBizServiceApplication" />
       <item itemvalue="Spring Boot.SeataPayServiceApplication" />
-      <item itemvalue="Spring Boot.SeataOrderServiceApplication" />
       <item itemvalue="Spring Boot.NacosConfigClientApplication" />
       <item itemvalue="Spring Boot.SentinelFeignConsumerApplication" />
+      <item itemvalue="Spring Boot.SeataOrdServiceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -270,6 +280,11 @@
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1533950" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8a9725e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1533950" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8d462ee1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +324,7 @@
       <workItem from="1580885033786" duration="7504000" />
       <workItem from="1580894634828" duration="3101000" />
       <workItem from="1580899081255" duration="6114000" />
-      <workItem from="1580915236036" duration="7372000" />
+      <workItem from="1580915236036" duration="12894000" />
     </task>
     <servers />
   </component>

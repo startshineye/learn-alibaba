@@ -8,3 +8,7 @@ spring:
     username: root
     password: rbjf_DEV123
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group:

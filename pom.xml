@@ -22,6 +22,6 @@
         <module>sentinel-gateway-service</module>
         <module>seata-biz-service</module>
         <module>seata-pay-service</module>
-        <module>seata-order-service</module>
+        <module>seata-ord-service</module>
     </modules>
 </project>

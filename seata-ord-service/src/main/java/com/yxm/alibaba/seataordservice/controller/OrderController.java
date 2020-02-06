@@ -1,6 +1,6 @@
-package com.yxm.alibaba.seataorderservice.controller;
+package com.yxm.alibaba.seataordservice.controller;
 
-import com.yxm.alibaba.seataorderservice.service.OrderService;
+import com.yxm.alibaba.seataordservice.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ public class OrderController {
     private OrderService orderService;
 
     @GetMapping("/order")
-    public String order(){
+    public String pay(){
         orderService.save();
         return "success";
     }

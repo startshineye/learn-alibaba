@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yxm.alibaba</groupId>
-    <artifactId>seata-order-service</artifactId>
+    <artifactId>seata-ord-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>seata-order-service</name>
+    <name>seata-ord-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,6 +19,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jdbc</artifactId>

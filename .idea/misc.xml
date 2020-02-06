@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/sentinel-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel-gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/seata-biz-service/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-ord-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

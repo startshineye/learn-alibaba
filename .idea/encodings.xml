@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/nacos-discovery-gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-discovery-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-biz-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-ord-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-pay-service" charset="UTF-8" />
